@@ -295,20 +295,17 @@
     }
     .hobby
     {
-     margin: 2px 10px;
+     margin: 0px 8px;
      margin-top: 12%;
+    }
+   .hobbyname
+    {
+        margin-left: -5%;
     }
     .Double-Border
     {
         width: 94%;
-        height: 95%;
+      box-shadow: 0px 0px 0px 0px ;
     }
 }
-@media only screen and (max-width:1000px)
-{
-    .Double-Border
-    {
-        width: 90%;
-        height: 100%;
-    }
 }
