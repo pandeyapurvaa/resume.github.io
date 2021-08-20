@@ -1,0 +1,314 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Resume-Border
+{
+ width: 100%;
+ height:auto;
+  border: 2px solid transparent; 
+ padding-bottom: 1%;
+ background-color: rgb(202, 199, 199);
+}
+.Double-Border
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    margin-top: 1%;
+    box-shadow: 4px 8px 10px 0 rgb(88, 88, 88),0 8px 10px 4px rgb(88, 88, 88);
+}
+.sidebar
+{
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+}
+.information
+{
+    width: 85%;
+   height: 1035px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(236, 236, 236);
+}
+.heading2
+{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2%;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.heading2 p
+{
+  width: 98%;
+  margin-left: 2%;
+}
+.profile-pic
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+.profile-pic img
+{
+    width:35%;
+    margin:auto;
+    margin-top: 17%;
+
+    padding-bottom: 2%;
+}
+
+.name
+{
+    font-size: 1.1rem;
+}
+.position
+{
+    font-size: .9rem;
+    margin-bottom: 6%;
+}
+.profile-info
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:75%;
+    text-align: center;
+    background-color: rgb(226, 180, 188);
+    opacity: .95;
+}
+.profile-info p
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.heading,.heading3
+{
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 55%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    font-weight: 600;
+}
+.heading3
+{
+    margin-top: -3.5%;
+}
+.fa-youtube,.fa-behance,.fa-twitter
+{
+    width:10%;
+    border-radius: 60%;
+    font-size: .8rem;
+}
+.Skills
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: rgb(44, 43, 43);
+    font-weight: 520;
+    margin-top: 2.9%;
+}
+.contact
+{
+    margin-top: 8%;
+    margin-bottom: 4%;
+    padding-bottom: 2px;
+}
+.lang
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.name-lang,.rating
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 5%;
+}
+.about-name{
+    border-bottom: 2px solid black;
+}
+.clg-name
+{
+    display: flex;
+    flex-direction: row;
+}
+.clg
+{
+    font-weight:bold;
+}
+.date
+{
+    margin-left: 70%;
+}
+.skills1,.skills2
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 100px;
+    margin-left: -.5%
+}
+.para-about,.defineclg
+{
+    padding-bottom: 2%;
+    opacity: .75;
+}
+.circle
+{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgb(226, 180, 188);
+    text-align: center;
+}
+.fa-user,.fa-graduation-cap,.fa-briefcase,.fa-file-alt
+{
+    font-size: 1rem;
+    text-align: center;
+}
+.hobby
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+     margin-top: 5.6%;
+}
+.hobbyname
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.dots
+{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 2px 2px;
+    background-color: black;
+}
+.dotsw,.dotsww
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 2px 2px;
+    background-color: white;
+}
+.dotsww
+{
+    background-color: gray;
+}
+#firstdot
+{
+    margin-top: -2%;
+}
+.dotrating
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+
+}
+@media only screen and (max-width:1370px)
+{
+    .profile-pic img
+    {
+        width:35%;
+        margin:auto;
+        margin-top: 26%;
+        padding-bottom: 2%;
+    }
+   
+}
+@media only screen and (max-width:1339px)
+{
+    .hobby
+    {
+        margin-top: 4%;
+    }
+    .profile-pic img
+    {
+        margin-top: 30%;
+    }
+    .clg
+    {
+        font-size: .8rem;
+       
+    }
+    .Skills
+    {
+        margin-top: 1.5%;
+    }
+
+}
+
+@media only screen and (max-width:1145px)
+{
+    .profile-pic img
+    {
+        margin-top: 50%;
+    }
+    .profile-info p
+    {
+        margin-top: 6%;
+        margin-bottom: 5.5%;
+    }
+    .Double-Border
+    {
+        width: 97%;
+        height: 95%;
+    }
+
+}
+@media only screen and (max-width:1042px)
+{
+    .profile-pic img{
+        margin-top: 40%;
+        width: 50%;
+    }
+    .hobby
+    {
+     margin: 2px 10px;
+     margin-top: 12%;
+    }
+    .Double-Border
+    {
+        width: 94%;
+        height: 95%;
+    }
+}
+@media only screen and (max-width:1000px)
+{
+    .Double-Border
+    {
+        width: 90%;
+        height: 100%;
+    }
+}
